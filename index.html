@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simple - DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="" class="formulario">
+
+        <p>Numero Uno</p>
+        <input type="text" id="numeroUno">
+
+
+        <p>Numero Dos</p>
+        <input type="text" id="numeroDos">
+
+
+
+        <p>Resultado</p>
+        <input type="text" id="resultado">
+        <br>
+
+
+
+        <input onclick="sumarNumero()" class="estilo" type="button" id="sumar" value="+">
+        <input onclick="restarNumero()" class="estilo" type="button" id="restar" value="-">
+        <input onclick="multiplicarNumero()" class="estilo" type="button" id="multiplicar" value="*">
+        <input onclick="dividirNumero()" class="estilo" type="button" id="dividir" value="/">
+
+
+
+    </form>
+
+
+
+    <script src="calculadoraSimple.js"></script>
+</body>
+
+</html>
